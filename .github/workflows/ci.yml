@@ -31,7 +31,7 @@ jobs:
       # Typecheck, static export to out/, then the post-build site audit.
       - run: npm run check
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: site
           path: out/
